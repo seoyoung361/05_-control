@@ -5,13 +5,12 @@
 
 int main(int argc, char *argv[]) 
 {
-	int i=0, meter;
+	int i;
 	
-    while (i<3)
+    for (i=0;i<10; i++)
     {
-    	meter=i*1609;
-    	printf("%d 마일은 %d 미터입니다.\n", i, meter);
-    	i++;
+    	printf("Hello world!\n");
+    
 	}
 	
 	return 0;
